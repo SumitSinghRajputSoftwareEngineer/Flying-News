@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-export default class Header extends Component {
-  render() {
+const Header=()=> {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               Flying-News
@@ -62,5 +61,6 @@ export default class Header extends Component {
         </nav>
       </div>
     );
-  }
 }
+
+export default Header;

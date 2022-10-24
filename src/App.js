@@ -11,8 +11,8 @@ import LoadingBar from "react-top-loading-bar";
 //API 2 : (gwalior) -> a2c2dd3b87474c119471b7bdb1713945
 
 export default class App extends Component {
-  pageSize = 4;
-  apiKey = "d6e29b97ef5849b4bf5c280016316b7b";
+  pageSize = 9;
+  apiKey = "a2c2dd3b87474c119471b7bdb1713945";
   state = {
     progress: 0,
   };
